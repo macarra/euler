@@ -36,12 +36,11 @@ def factors(n):
 x=[]
 
 x = factors(prime)
-print x
+print(x)
 
-print np.argsort(x)
+print(np.argsort(x))
 
 for z in x:
-    print z
-    print factors(z)
-    print
-    
+    print(z)
+    print(factors(z))
+    print()
