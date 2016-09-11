@@ -1,0 +1,3 @@
+Euler1: 233168Euler1: 233168Euler1: 233168
+Euler1: 233168
+Euler1: <built-in function sum>
