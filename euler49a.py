@@ -19,7 +19,7 @@ for i in range(1000,10000):
     if isprime(i):
         x.append(i)
 
-print len(x)
+print(len(x))
 
 
 def numlist(z):
@@ -33,7 +33,8 @@ def numlist(z):
     x4=z-x1*1000-x2*100-x3*10
     
     sorted=np.argsort(x)
-    xnum=
+    xnum=sorted[0]
+    print("xnum",xnum)
 
 z=4529
-print numlist(z)
+print( numlist(z))
