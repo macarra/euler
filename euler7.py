@@ -23,8 +23,8 @@ while (pnum < 10001):
     pcheck = isprime(prime)
     if pcheck:
         pnum+=1
-        print pnum, prime
+        print(pnum, prime)
 
-print time.time() - s
-print prime
+print(time.time() - s)
+print(prime)
 #104743
