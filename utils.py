@@ -11,3 +11,6 @@ def printList(alist,cols=6):
         if colindex % cols==0:
             print()
         colindex+=1
+        
+def getUniqueFromList(alist):
+    return list(set(alist))
